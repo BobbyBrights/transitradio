@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+<title>Transit Radio</title>
+<link>http://www.transitradio.no</link>
+<language>en-us</language>
+<copyright>2016 Transnational Arts Production</copyright>
+<itunes:subtitle>A podcast radio station recorded at reception centers for asylum Seekers in Norway</itunes:subtitle>
+<itunes:author>Transnational Arts Production</itunes:author>
+<itunes:summary>Transit Radio is a podcast radio station recorded at reception centers for asylum Seekers in Norway. The recordings are from workshops with asylum-seekers led by professional musicians. In addition there will be interviews with asylum seekers about what music they play while in transit and about what it means to them.</itunes:summary>
+<description>The recordings are from workshops with asylum-seekers led by professional musicians. In addition there will be interviews with asylum seekers about what music they play while in transit and about what it means to them.</description>
+<itunes:owner>
+<itunes:name>Transit Radio</itunes:name>
+<itunes:email>post@transitradio.no</itunes:email>
+</itunes:owner>
+<itunes:image href="http://www.transitradio.no/podcasts/tr-podcast-cover.png"/>
+<itunes:category text="News &amp; Politics">
+</itunes:category>
+<itunes:explicit>no</itunes:explicit>
+<item>
+<title>Transit Radio: Episode 1</title>
+<itunes:author>Sofia Bagge, Khaled Harara, Abazar A. Bagi Hamid, Sheldon George Blackman, Hilde Ghosh Maisey</itunes:author>
+<itunes:subtitle>Khaled Harara and Monirah Hashemi's Workshops</itunes:subtitle>
+<itunes:summary>The first episode visits the workshops done by Khaled Harara and Monirah Hashemi to empower young refugees in Karlstad, Sweden.</itunes:summary>
+<itunes:image href="http://www.transitradio.no/podcasts/episode-1/tr-episode-1.jpg"/>
+<enclosure length="5190287" type="audio/x-m4a" url="http://www.transitradio.no/podcasts/episode-1/tr-episode-1.m4a"/>
+<guid>http://www.transitradio.no/podcasts/episode-1/tr-episode-1.m4a</guid>
+<pubDate>Fri, 09 Sep 2016 12:00:00 GMT</pubDate>
+<itunes:duration>10:55</itunes:duration>
+<itunes:explicit>no</itunes:explicit>
+</item>
+</channel>
+</rss>
