@@ -1,0 +1,31 @@
+// bower:scss
+// endbower
+
+@import '_media';
+@import '_type';
+@import '_color';
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,.25); border-radius: 5px; }
+
+*::selection{ color: $secondary-color; }
+*::-moz-selection{ color: $secondary-color; }
+
+body {
+  background: $primary-color;
+  // font-family: $primary-font, Helvetica, Arial, sans-serif;
+  -moz-font-feature-settings: "liga", "kern";
+  -moz-font-feature-settings:"liga=1, kern=1";
+  -ms-font-feature-settings:"liga", "kern";
+  -o-font-feature-settings:"liga", "kern";
+  -webkit-font-feature-settings:"liga", "kern";
+  font-feature-settings: "liga", "kern";
+  -webkit-font-smoothing: antialiased;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

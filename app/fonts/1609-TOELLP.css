@@ -1,0 +1,164 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2016 Schwartzco Inc.
+        License: 1609-TOELLP     
+*/
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-SuperItalic-Web.eot');
+  src: url('DrukWide-SuperItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-SuperItalic-Web.woff2') format('woff2'),
+       url('DrukWide-SuperItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DrukWide-SuperItalic-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-Super-Web.eot');
+  src: url('DrukWide-Super-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-Super-Web.woff2') format('woff2'),
+       url('DrukWide-Super-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DrukWide-Super-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-HeavyItalic-Web.eot');
+  src: url('DrukWide-HeavyItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-HeavyItalic-Web.woff2') format('woff2'),
+       url('DrukWide-HeavyItalic-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DrukWide-HeavyItalic-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-Heavy-Web.eot');
+  src: url('DrukWide-Heavy-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-Heavy-Web.woff2') format('woff2'),
+       url('DrukWide-Heavy-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DrukWide-Heavy-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-BoldItalic-Web.eot');
+  src: url('DrukWide-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-BoldItalic-Web.woff2') format('woff2'),
+       url('DrukWide-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DrukWide-BoldItalic-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-Bold-Web.eot');
+  src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-Bold-Web.woff2') format('woff2'),
+       url('DrukWide-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DrukWide-Bold-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-MediumItalic-Web.eot');
+  src: url('DrukWide-MediumItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-MediumItalic-Web.woff2') format('woff2'),
+       url('DrukWide-MediumItalic-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DrukWide-MediumItalic-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Druk Wide Web';
+  src: url('DrukWide-Medium-Web.eot');
+  src: url('DrukWide-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url('DrukWide-Medium-Web.woff2') format('woff2'),
+       url('DrukWide-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DrukWide-Medium-Web {
+  font-family: 'Druk Wide Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
