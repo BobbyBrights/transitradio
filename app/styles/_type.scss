@@ -3,4 +3,102 @@
 
 @import '../fonts/1609-TOELLP.css';
 
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=cb171971-1c77-48bb-80ca-1927e1c1411c");
+    @font-face{
+        font-family:"AdobeCaslonW01-Regular";
+        src:url("../fonts/ef429e53-4846-40b9-a3fe-4295cefc7e94.eot?#iefix");
+        src:url("../fonts/ef429e53-4846-40b9-a3fe-4295cefc7e94.eot?#iefix") format("eot"),url("../fonts/3531483a-a370-4cac-bcd3-9cbd5c0aa8fe.woff2") format("woff2"),url("../fonts/29fc7b6f-c777-4db4-99c7-98a753629a74.woff") format("woff"),url("../fonts/492aae7f-5ec2-484f-8c4a-5dceb929def5.ttf") format("truetype"),url("../fonts/27231d8a-1ac1-4ede-8e91-c7bb60852443.svg#27231d8a-1ac1-4ede-8e91-c7bb60852443") format("svg");
+    }
+    @font-face{
+        font-family:"Adobe Caslon W01 It";
+        src:url("../fonts/48e53584-22ac-4328-a940-54ac91ee35db.eot?#iefix");
+        src:url("../fonts/48e53584-22ac-4328-a940-54ac91ee35db.eot?#iefix") format("eot"),url("../fonts/df7ba2f1-324a-404c-88c7-f68adad9ac33.woff2") format("woff2"),url("../fonts/67620760-8bd8-45d7-b70d-de7936d7a6e1.woff") format("woff"),url("../fonts/d39c7172-0364-4db6-80c5-116c450e3e98.ttf") format("truetype"),url("../fonts/c1570ebd-fc91-4d70-b33b-8f19e9a0fabf.svg#c1570ebd-fc91-4d70-b33b-8f19e9a0fabf") format("svg");
+    }
+
+// Type choices
 $primary-font: "Druk Wide Web";
+$secondary-font: "AdobeCaslonW01-Regular";
+$tertiary-font: "Adobe Caslon W01 It";
+
+// Type scale
+$title-primary: 2.5vw;
+$title-secondary: 2vw;
+$body-text: 2vw;
+
+p {
+  font-family: $secondary-font;
+  font-size: $body-text;
+  line-height: 1.2;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-margin-before: .35em;
+
+  @include breakpoint(mobileonly) {
+    font-size: $body-text*2;
+  }
+}
+
+h1 {
+  font-family: $primary-font;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 900;
+  font-size: $title-primary;
+  text-align: center;
+  line-height: inherit;
+
+  @include breakpoint(mobileonly) {
+    font-size: $title-primary*2;
+  }
+
+}
+
+h2 {
+  font-family: $primary-font;
+  font-style:   normal;
+  font-stretch: normal;
+  font-weight: 700;
+  font-size: $title-secondary;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  padding-left: 30px;
+  line-height: inherit;
+
+  @include breakpoint(mobileonly) {
+    font-size: $title-secondary*2;
+  }
+
+}
+
+h3 {
+  font-family: $primary-font;
+  font-size: $title-secondary;
+  text-align: center;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-right: 50px;
+  -webkit-margin-before: -1em;
+
+  @include breakpoint(mobileonly) {
+    font-size: $title-secondary*2;
+  }
+
+}
+
+i {
+  font-family: $tertiary-font;
+  font-style: normal;
+}
+
+ul {
+  font-size: $title-secondary;
+}
+
+.box__nav--menuitems li, a {
+    @include breakpoint(mobileonly) {
+      font-size: $title-primary*2;
+      // line-height: 1.25;
+    }
+}
