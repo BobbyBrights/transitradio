@@ -84,3 +84,31 @@ a:hover,a:active,a:visited {
 .scu-player iframe{
   height: 160px;
 }
+
+.splash {
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    pointer-events: none;
+}
+
+.image {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+#trsplash {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: $primary-color;
+    z-index: 30;
+}

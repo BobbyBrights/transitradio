@@ -61,18 +61,8 @@ jQuery('img.svg').each(function(){
 });
 
 /*
-* Initialize Flickity
+* Initialize Flickity + fucking fouc
 */
-// $('.box__slideshow-flickity').flickity({
-//   // options
-//   cellAlign: 'center',
-//   freeScroll: true,
-//   wrapAround: true,
-//   imagesloaded: true,
-//   contain: true
-// });
-
-// fucking flickity fouc!
 
 // show
 var $carousel = $('.box__slideshow-flickity').removeClass('is-hidden');
@@ -87,3 +77,15 @@ $carousel.flickity({
   imagesloaded: true,
   contain: true
 });
+
+/*
+* splash
+*/
+$(document).ready(function() {
+   window.setTimeout('some();', 5000);
+ }
+)
+
+function some() {
+   $('#trsplash').fadeOut('slow');
+}
