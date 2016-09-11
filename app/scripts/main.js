@@ -71,3 +71,12 @@ $('.box__slideshow-flickity').flickity({
   imagesloaded: true,
   contain: true
 });
+
+// fucking flickity fouc!
+
+// show
+var $carousel = $('.box__slideshow-flickity').removeClass('is-hidden');
+// trigger redraw for transition
+$carousel[0].offsetHeight;
+// init Flickity
+$carousel.flickity();

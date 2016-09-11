@@ -2,9 +2,6 @@
 http://flickity.metafizzy.co
 ---------------------------------------------- */
 
-// bower:scss
-// endbower
-
 .flickity-enabled {
   position: relative;
 }
@@ -59,11 +56,10 @@ http://flickity.metafizzy.co
   cursor: pointer;
   /* vertically center */
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);  
           transform: translateY(-50%);
 }
 
-.flickity-prev-next-button:hover { background: none; }
+.flickity-prev-next-button:hover { background: white; }
 
 .flickity-prev-next-button:focus {
   outline: none;
@@ -108,9 +104,9 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: -25px;
   padding: 0;
-  /* margin: 0; */
+  margin: 0;
   list-style: none;
   text-align: center;
   line-height: 1;

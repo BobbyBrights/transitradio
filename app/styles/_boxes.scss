@@ -150,6 +150,9 @@ li {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
 
     @include breakpoint(mobileonly){
       flex-direction: row;
@@ -167,6 +170,15 @@ li {
     height: 400px; /* height of carousel */
     // margin-right: 10px;
   }
+
+  .box__slideshow-flickity.ishidden {
+    display: none;
+  }
+
+  .box__slideshow-flickity.flickity-enabled {
+  opacity: 1;
+}
+
 }
 
 .box__player {
