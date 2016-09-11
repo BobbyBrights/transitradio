@@ -63,14 +63,14 @@ jQuery('img.svg').each(function(){
 /*
 * Initialize Flickity
 */
-$('.box__slideshow-flickity').flickity({
-  // options
-  cellAlign: 'center',
-  freeScroll: true,
-  wrapAround: true,
-  imagesloaded: true,
-  contain: true
-});
+// $('.box__slideshow-flickity').flickity({
+//   // options
+//   cellAlign: 'center',
+//   freeScroll: true,
+//   wrapAround: true,
+//   imagesloaded: true,
+//   contain: true
+// });
 
 // fucking flickity fouc!
 
@@ -79,4 +79,11 @@ var $carousel = $('.box__slideshow-flickity').removeClass('is-hidden');
 // trigger redraw for transition
 $carousel[0].offsetHeight;
 // init Flickity
-$carousel.flickity();
+$carousel.flickity({
+  // options
+  cellAlign: 'center',
+  freeScroll: true,
+  wrapAround: true,
+  imagesloaded: true,
+  contain: true
+});
