@@ -147,7 +147,7 @@ li {
 
   .box__slideshow-flickity {
     height: 400px;
-    width: 600px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 
@@ -158,10 +158,14 @@ li {
     }
   }
 
-  .box__slideshow-flickity-cell {
+  .flickity-viewport {
     max-height: 400px;
-    width: auto;
-    // transform: translateY(-25%);
+  }
+
+  .box__slideshow-flickity-cell {
+    width: auto; /* full width */
+    height: 400px; /* height of carousel */
+    // margin-right: 10px;
   }
 }
 
