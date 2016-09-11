@@ -1,6 +1,18 @@
 console.log('\Transit Radio');
 
 /*
+* splash
+*/
+$(document).ready(function() {
+   window.setTimeout('some();', 5000);
+ }
+)
+
+function some() {
+   $('#trsplash').fadeOut('slow');
+}
+
+/*
  * Menu items
 */
 
@@ -77,15 +89,3 @@ $carousel.flickity({
   imagesloaded: true,
   contain: true
 });
-
-/*
-* splash
-*/
-$(document).ready(function() {
-   window.setTimeout('some();', 5000);
- }
-)
-
-function some() {
-   $('#trsplash').fadeOut('slow');
-}

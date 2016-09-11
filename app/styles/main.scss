@@ -92,6 +92,8 @@ a:hover,a:active,a:visited {
     margin-right: auto;
     margin-left: auto;
     pointer-events: none;
+    height: 120%;
+    max-width: 90%;
 }
 
 .image {
@@ -99,10 +101,10 @@ a:hover,a:active,a:visited {
     position: fixed;
     top: 0;
     bottom: 0;
-    height: auto;
     margin-top: auto;
     margin-bottom: auto;
     overflow: hidden;
+
 }
 
 #trsplash {
