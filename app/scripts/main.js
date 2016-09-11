@@ -3,10 +3,6 @@ console.log('\Transit Radio');
 /*
  * Menu items
 */
-$('#nav-episodes').on('click', function () {
-      $('#box__slideshow').scrollTo($('#episodes'), 500);
-      return false;
-  });
 
 $('#nav-contributors').on('click', function () {
       $('#text').scrollTo($('#contributors'), 500);
@@ -20,6 +16,16 @@ $('#nav-documentarists').on('click', function () {
 
 $('#nav-credits').on('click', function () {
       $('#text').scrollTo($('#credits'), 500);
+      return false;
+  });
+
+$('#nav-episode1').on('click', function () {
+      $('#episodes').scrollTo($('#episode1'), 500);
+      return false;
+  });
+
+$('#nav-episode2').on('click', function () {
+      $('#episodes').scrollTo($('#episode2'), 500);
       return false;
   });
 
