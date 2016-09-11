@@ -68,6 +68,6 @@ $('.box__slideshow-flickity').flickity({
   cellAlign: 'center',
   freeScroll: true,
   wrapAround: true,
-  setGallerySize: false,
+  imagesloaded: true,
   contain: true
 });
