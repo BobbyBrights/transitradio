@@ -123,12 +123,24 @@ li {
   overflow-x: hidden;
   overflow-y: scroll;
 
+ -webkit-transition-property: width;
+ -webkit-transition-duration: 0.4s;
+ -webkit-transition-timing-function: linear;
+
     @include breakpoint(mobileonly){
       flex-direction: row;
       width: 100%;
       height: 50%;
-    }
 
+     -webkit-transition-property: height;
+    }
+}
+
+.box__text:hover {
+   @include breakpoint(mobileonly){
+      height: 150%;
+      width: 100%;
+   }
 }
 
 .box__slideshow {
@@ -139,11 +151,26 @@ li {
   overflow-x: hidden;
   overflow-y: scroll;
 
+ -webkit-transition-property: width;
+ -webkit-transition-duration: 0.4s;
+ -webkit-transition-timing-function: linear;
+
     @include breakpoint(mobileonly){
       flex-direction: row;
       width: 100%;
       height: 50%;
-    }
+
+     -webkit-transition-property: height;
+   }
+}
+
+.box__slideshow:hover {
+   @include breakpoint(mobileonly){
+      height: 150%;
+      width: 100%;
+   }
+
+ }
 
   .box__slideshow-flickity {
     height: 400px;
@@ -177,8 +204,6 @@ li {
 
   .box__slideshow-flickity.flickity-enabled {
   opacity: 1;
-}
-
 }
 
 .box__player {
