@@ -62,22 +62,24 @@ a:hover,a:active,a:visited {
   width: 100%;
 
     @include breakpoint(desktop){
-      min-width: 700px;
+      width: 800px;
+      // max-width: 700px;
+      height: auto;
     }
 
     @include breakpoint(laptop){
       // width: 100%;
-      min-width: 600px;
+      max-width: 600px;
     }
 
     @include breakpoint(mobileonly){
       // width: 100%;
-      min-width: 300px;
+      max-width: 300px;
     }
 
     @include breakpoint(phablet){
       // width: 100%;
-      min-width: 300px;
+      max-width: 600px;
     }
 }
 
