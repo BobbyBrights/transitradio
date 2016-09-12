@@ -9,10 +9,9 @@
 }
 
 .flickity-page-dots {
-
   bottom: 0;
     @include breakpoint(mobileonly) {
-    display: none;
+      display: none;
   }
 }
 
@@ -136,7 +135,7 @@ li {
     }
 }
 
-.box__text:hover {
+.box__text:hover,:focus {
    @include breakpoint(mobileonly){
       height: 150%;
       width: 100%;
@@ -164,7 +163,7 @@ li {
    }
 }
 
-.box__slideshow:hover {
+.box__slideshow:hover,:focus {
    @include breakpoint(mobileonly){
       height: 150%;
       width: 100%;
