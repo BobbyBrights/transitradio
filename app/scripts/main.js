@@ -86,6 +86,6 @@ $carousel.flickity({
   cellAlign: 'center',
   freeScroll: true,
   wrapAround: true,
-  imagesloaded: true,
+  imagesLoaded: true,
   contain: true
 });
