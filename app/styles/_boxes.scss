@@ -135,7 +135,7 @@ li {
     }
 }
 
-.box__text:hover,:focus {
+.box__text:hover,.box__text:focus,.box__text:active {
    @include breakpoint(mobileonly){
       height: 150%;
       width: 100%;
@@ -163,7 +163,7 @@ li {
    }
 }
 
-.box__slideshow:hover,:focus {
+.box__slideshow:hover,.box__slideshow:focus,.box__slideshow:active {
    @include breakpoint(mobileonly){
       height: 150%;
       width: 100%;
