@@ -87,5 +87,21 @@ $carousel.flickity({
   freeScroll: true,
   wrapAround: true,
   imagesLoaded: true,
+  pageDots: false,
+  percentPosition: false,
   contain: true
+});
+
+// getting around that focus click thing
+var textBox = document.querySelector('.box__text');
+var slideshowBox = document.querySelector('.box__slideshow');
+
+textBox.addEventListener('click', function() {
+    textBox.classList.add('.box__text--focus');
+    slideshowBox.classList.remove('.box__slideshow--focus');
+});
+
+slideshowBox.addEventListener('click', function() {
+    textBox.classList.remove('.box__text--focus');
+    slideshowBox.classList.add('.box__slideshow--focus');
 });
