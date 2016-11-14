@@ -41,6 +41,20 @@ $('#nav-episode2').on('click', function () {
       return false;
   });
 
+$('#nav-episode3').on('click', function () {
+      $('#episodes').scrollTo($('#episode3'), 500);
+      return false;
+  });
+
+$('#nav-episode4').on('click', function () {
+      $('#episodes').scrollTo($('#episode4'), 500);
+      return false;
+  });
+
+$('#nav-episode5').on('click', function () {
+      $('#episodes').scrollTo($('#episode5'), 500);
+      return false;
+  });
 /*
 * Replace all SVG images with inline SVG
 */
